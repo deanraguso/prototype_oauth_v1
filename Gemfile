@@ -56,3 +56,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "devise", "~> 4.8"
+
+gem "omniauth", "~> 2.0"
+gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
